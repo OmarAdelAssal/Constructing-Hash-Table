@@ -30,7 +30,7 @@ while True:
     print("4: Delete an element from the hash table")
     print("5: Search for an element in the hash table")
     print("6: print All elements with their keys of the hash table")
-    print("7: Exit")
+    print("0: Exit")
     
     choice = int(input("Enter The Number Of Your Choice: "))
 
@@ -72,7 +72,7 @@ while True:
         print(hash_table)
 
     # Exiting
-    elif choice == 7:
+    elif choice == 0:
         break
 
     else :
